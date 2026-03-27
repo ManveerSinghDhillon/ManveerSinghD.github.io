@@ -1288,14 +1288,23 @@ nav, main, footer{
   padding: 0 64px;
 }
 
-
+/* Make the hero image behave nicely (mockup style) */
+.page-pinpal .case-hero__frame{
+  padding: 22px;
+}
 /* PINPAL: hero should be single column after removing image */
 .page-pinpal .case-hero__inner{
   grid-template-columns: 1fr;
 }
 
 
-
+.page-pinpal .case-hero__frame img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  object-fit: contain;
+}
 
 /* FULL WIDTH content area ONLY on pinpal */
 .page-pinpal .page-pinpal-main{
@@ -1446,21 +1455,6 @@ display: block;
   gap: 64px;
   margin-top: 40px;
 }
-.wireframe-img{
-  width: 100%;
-  max-width: 250px;   /* smaller */
-  height: auto;
-  margin: 20px auto;
-  display: block;
-}
-.page-pinpal .wireframe-img{
-  width: 100px !important;
-  max-width: 100px !important;
-  height: auto !important;
-  display: block;
-  margin: 20px auto;
-}
-
 
 /* =========================
    DIGITAL HEALTH —
@@ -4001,13 +3995,6 @@ display: block;
   height: auto;
   display: block;
   transition: width .25s ease;
-}
-.page-pinpal .case-hero__frame img{
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 18px;
-  object-fit: contain;
 }
 /* =========================
    DIGITAL HEALTH —
