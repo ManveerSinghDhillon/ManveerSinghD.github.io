@@ -1475,6 +1475,25 @@ display: block;
   margin: 0 auto;
   display: block;
 }
+.page-pinpal .case-hero__frame{
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  width: auto !important;
+  max-width: fit-content !important;
+  margin: 0 auto !important;
+}
+
+.page-pinpal .case-hero__frame img{
+  width: 160px !important;
+  max-width: 160px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
 
 
 /* =========================
