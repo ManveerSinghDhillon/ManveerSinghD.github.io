@@ -1295,13 +1295,7 @@ nav, main, footer{
 }
 
 
-.page-pinpal .case-hero__frame img{
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 18px;
-  object-fit: contain;
-}
+
 
 /* FULL WIDTH content area ONLY on pinpal */
 .page-pinpal .page-pinpal-main{
