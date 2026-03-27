@@ -1288,10 +1288,7 @@ nav, main, footer{
   padding: 0 64px;
 }
 
-/* Make the hero image behave nicely (mockup style) */
-.page-pinpal .case-hero__frame{
-  padding: 0px;
-}
+
 /* PINPAL: hero should be single column after removing image */
 .page-pinpal .case-hero__inner{
   grid-template-columns: 1fr;
@@ -1469,31 +1466,6 @@ display: block;
   display: block;
   margin: 20px auto;
 }
-.page-pinpal .case-hero__frame img{
-  width: 300px !important;
-  max-width: 300px !important;
-  margin: 0 auto;
-  display: block;
-}
-.page-pinpal .case-hero__frame{
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
-  width: auto !important;
-  max-width: fit-content !important;
-  margin: 0 auto !important;
-}
-
-.page-pinpal .case-hero__frame img{
-  width: 160px !important;
-  max-width: 160px !important;
-  height: auto !important;
-  display: block !important;
-  margin: 0 auto !important;
-}
-
 
 
 /* =========================
