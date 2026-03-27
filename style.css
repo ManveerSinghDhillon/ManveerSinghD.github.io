@@ -2090,18 +2090,21 @@ html{
 .page-digital-health b{
   font-weight: 700 !important;
 }
-.blue-margin{
+.page-digital-health .blue-margin{
   display: inline-block;
-  padding: 24px;                 /* 👈 this is the “margin” look */
-  background: #8fb7ff;           /* blue color */
-  border-radius: 32px;           /* rounded outside */
+  padding: 0px;              /* small spacing between border & image */
+  border: 6px solid #8fb7ff; /* 👈 thin blue line */
+  border-radius: 22px;       /* match phone curve */
+  background: transparent;
 }
 
-.blue-margin img{
+.page-digital-health .blue-margin img{
   display: block;
-  border-radius: 20px;           /* rounded image */
-  background: #fff;              /* keeps image clean */
+  max-width: 260px;
+  height: auto;
+  border-radius: 18px;
 }
+
 
 /* =========================
    DIGITAL HEALTH — SVG HERO SHAPES (FINAL)
