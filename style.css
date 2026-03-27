@@ -1455,12 +1455,12 @@ display: block;
   gap: 64px;
   margin-top: 40px;
 }
-.page-pinpal .case-hero__frame img{
+.wireframe-img{
   width: 100%;
-  max-width: 200px;   /* 👈 controls size */
+  max-width: 250px;   /* smaller */
   height: auto;
+  margin: 20px auto;
   display: block;
-  margin: 0 auto;     /* center it */
 }
 
 /* =========================
