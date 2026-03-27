@@ -1290,7 +1290,7 @@ nav, main, footer{
 
 /* Make the hero image behave nicely (mockup style) */
 .page-pinpal .case-hero__frame{
-  padding: 22px;
+  padding: 1px;
 }
 /* PINPAL: hero should be single column after removing image */
 .page-pinpal .case-hero__inner{
