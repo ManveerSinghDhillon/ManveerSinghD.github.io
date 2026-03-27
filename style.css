@@ -1469,8 +1469,12 @@ display: block;
   display: block;
   margin: 20px auto;
 }
-
-
+.page-pinpal .case-hero__frame img{
+  width: 300px !important;
+  max-width: 300px !important;
+  margin: 0 auto;
+  display: block;
+}
 
 
 /* =========================
