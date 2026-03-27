@@ -2105,7 +2105,6 @@ html{
   border-radius: 18px;
 }
 
-
 /* =========================
    DIGITAL HEALTH — SVG HERO SHAPES (FINAL)
    ========================= */
@@ -2334,13 +2333,12 @@ body.page-digital-health .case-hero{
 
 .goal-card{
   background: #fff9ee;
-  border: 3px solid #8fb7ff;
+  border: 1px solid #dbeafe;   /* lighter blue */
   border-radius: 28px;
   padding: 40px 30px;
   text-align: center;
   transition: transform .25s ease, box-shadow .25s ease;
 }
-
 .goal-card:hover{
   transform: translateY(-8px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.08);
@@ -8827,3 +8825,37 @@ body.about .page-decor .shape-ellipse{ animation-duration: 5.4s; }
   }
 }
 
+.btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 14px 28px;
+  border-radius: 40px;
+
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+
+  color: white;
+  background: #3B82F6;          
+  border: 2px solid #3B82F6;        
+
+  transition: all 0.3s ease;
+}
+.btn:hover{
+  background: #3B82F6;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59,130,246,0.25);
+}
+.btn:active{
+  transform: scale(0.97);
+}
+.btn span{
+  transition: transform 0.3s ease;
+}
+
+.btn:hover span{
+  transform: translateX(5px);
+}
