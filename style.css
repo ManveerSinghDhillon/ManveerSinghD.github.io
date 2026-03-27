@@ -1457,7 +1457,7 @@ display: block;
 }
 .page-pinpal .case-hero__frame img{
   width: 100%;
-  max-width: 400px;   /* 👈 controls size */
+  max-width: 200px;   /* 👈 controls size */
   height: auto;
   display: block;
   margin: 0 auto;     /* center it */
